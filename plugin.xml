@@ -20,9 +20,9 @@
 
 <plugin xmlns="http://apache.org/weexpack/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.c"
-    id="weex-adapterImage"
+    id="weex-adapter-image"
     version="1.0.0">
-    <name>weex-adapterImage</name>
+    <name>weex-adapter-image</name>
     <description>weex image adapter</description>
     <license>Apache 2.0</license>
     <keywords>weex,image,adapter,handler</keywords>
@@ -34,7 +34,7 @@
      <platform name="ios">
          
          <config-file target="WeexpluginConfig.xml" parent="/*">
-             <feature name="weex-adapterImage">
+             <feature name="WXImgLoaderImpl">
                  <param name="category" value="handler" />
                  <param name="ios-package" value="WXImgLoaderImpl" />
                  <param name="protocol" value="WXImgLoaderProtocol" />
